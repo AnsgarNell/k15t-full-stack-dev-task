@@ -9,13 +9,13 @@ help us out and get it done.
  
 ## But *what* should I do exactly?
 Extend the form with the required fields (see registration.html for further details) and 
-store the entered information by using a MVC Controller. Give the user feedback if the
+store the entered information by using a Spring MVC Controller. Give the user feedback if the
 save was successful or in case of an error. Ensure mandatory fields will be entered
 and verify the entered values are reasonable e.g. the name must not contains numbers.
 
 To start with, please see the already created files and classes. Especially:
 
-* com.k15t.pat.registration: The package includes a MVC controller
+* com.k15t.pat.registration: The package includes a Web Controller
 * resources/templates: The folder includes the initial Thymeleaf templates for the registration page 
 
 The Maven build creates a executable jar which includes the whole runtime (tomcat) to run the app.
